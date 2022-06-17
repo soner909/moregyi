@@ -1,0 +1,72 @@
+header{
+    
+    
+    z-index: 1;
+    
+    
+    
+}
+.concon1{
+    background-color: black;
+    border: 3px solid grey;
+    
+}
+
+.main-menu {margin-right: 35px;float: right;margin-top: 12px;}
+.main-menu ul{margin-left: 20px;}
+.main-menu ul li{float: left;margin-right: 40px;list-style: none;position: relative;z-index: 9;}
+.main-menu ul li:last-of-type{margin-right: 4px;}
+.main-menu ul li a{color: #fff;display: inline-block;position: relative;text-decoration: none;font-size: 18px;z-index: 9;font-weight: 700;}
+.main-menu ul li a i { margin-right: 5px; }
+.main-menu ul li i {color: #fff;margin-left: 9px;font-size: 12px;position: relative;top: -1px;}
+.main-menu ul li a:hover {color: #ffffff;}
+.main-menu ul li a.active {color: #18bff1;}
+.main-menu ul li a:after{content: '';position: absolute;left: -10px;width:0%;height: 2px;background-color: #818181;bottom: -3px;transform: scaleX(1);-webkit-transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;transition: all 0.5s ease-in-out 0s;}
+.main-menu ul li a:hover:after,.header nav.main-menu ul li a.active:after{width: calc(50% + 10px);}
+.main-menu ul li a:before{content: '';position: absolute;right: -10px;width: 0;height: 1px;bottom: -3px;background-color: #d1d1d1;transform: scaleX(1);-webkit-transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;transition: all 0.5s ease-in-out 0s;}
+.main-menu ul li a:hover:before, .header nav.main-menu ul li a.active:before{width: calc(50% + 10px); height: 2px;}
+.main-menu > ul > li > ul{position: absolute;width: 204px;padding-top: 65px;margin-top: 0px;top:0;left: -50%;z-index: 1;transform: scaleY(0);-ms-transform: scaleY(0);-webkit-transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;transition: all 0.5s ease-in-out 0s;transform-origin: left 70px 0;visibility: hidden;}
+
+.main-menu > ul > li > ul:before {top: 45px;left: 62%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-bottom-color: #ffffff;border-width: 10px;margin-left: -105px;}
+.main-menu ul li:hover > ul{transform: scaleY(1);-ms-transform: scaleY(1);visibility: visible;}
+.main-menu ul li ul > li{background-color: #ffffff;padding: 0px 0;width: 100%;border-bottom: 1px solid #e8e8e8;border-top: 1px solid #f5f5f5;margin-right: 0;}
+.main-menu ul li ul > li > ul > li{background-color: #ffffff;padding: 2px 0;width: 100%;border-bottom: 1px solid #e8e8e8;border-top: 1px solid #f5f5f5;}
+.main-menu ul li ul li a{padding: 8px 13px;color: #05040a;display: block;font-size: 14px;font-weight: 400;}
+.main-menu ul li ul li ul li a{padding: 6px 13px;color: #000;display: block;font-size: 14px;}
+.main-menu ul li ul li ul li a:hover{background-color: #000;color: #fff;}
+.main-menu ul li ul li a:hover:before{display: none;}
+.main-menu ul li ul li a:hover:after{display: none;}
+.main-menu ul li ul li a:hover{background-color: #202020;color: #ffffff;}
+.main-menu ul li ul.language {width: 126px;left: -20%;}
+ ul li ul li ul{position: absolute;width: 250px;padding-top: 0;margin-top: 0;top: 0;left: 217px !important;z-index: 99;transform: scaleY(0);-ms-transform: scaleY(0);-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;transform-origin: left 70px 0;visibility: hidden;margin-left: 0px !important;}
+ ul li ul li:hover > ul{transform: scaleY(1);-ms-transform: scaleY(1);visibility: visible;}
+ ul li ul li li ul{background-color: #fff;width: 100%;border-bottom: 1px solid #dadada;border-top: 1px solid #e6e6e6;border-left: 6px solid #222;text-align: left;}
+ ul li ul li li ul a:before { display: none; }
+ ul li ul li li ul a{padding: 10px 20px;color: #222;display: block;font-weight: 500;}
+ ul li ul li li ul a:hover:before{display: none;}
+ ul li ul li li ul a:hover:after{display: none;}
+ ul li ul li li ul a:hover{background-color: #222222;color: #fff;}
+ ul > li > ul > li > ul:before {top: 9px;left: 41.5%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-bottom-color: #ffffff;border-width: 10px;margin-left: -125px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);}
+.main-menu ul li ul.language:before {left: 126%;}
+.main-menu ul li a img {width: 30px;}
+a.sizi-arayalim{background-color: #efc56f;color: #000;float: right;font-weight: 600;padding: 3px 25px;display: inline-block;margin-top: 31px;margin-right: 20px;border-radius: 14px;}  
+.sosyalbutonlarheader{display: inline-block;position: relative;float: right;margin-top: 10px;}
+.sosyalbutonlarheader a{background: #ffffff;text-decoration: none;color: #1a1a1a !important;width: 26px;height: 26px;display: inline-block;border-radius: 50%;font-size: 14px;overflow: hidden;line-height: 26px;text-align: center;margin-left: 3px;}
+.sosyalbutonlarheader a{transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;}
+.sosyalbutonlarheader .facebook:hover{background-color: #3B5998;color: #ffffff !important;transform: rotate(360deg);border-radius: 50%;}
+.sosyalbutonlarheader .instagram:hover{background-color: rgb(225,48,108);color: #ffffff !important;transform: rotate(360deg);border-radius: 50%;}
+.sosyalbutonlarheader .whatsapp:hover{background-color: #00ff5e;color: #ffffff !important;transform: rotate(360deg); border-radius: 50%;}
+.sosyalbutonlarheader .twitter:hover{background-color: #33CCFF;color: #ffffff !important;transform: rotate(360deg);border-radius: 50%;}
+.sosyalbutonlarheader .youtube:hover{background-color: red;color: #ffffff !important;transform: rotate(360deg);border-radius: 50%;}
+.sosyalbutonlarheader .linkedin:hover{background-color: #0077b7;color: #ffffff !important;transform: rotate(360deg);border-radius: 50%;}
+.slider1{z-index: -1;margin-top: -113px; padding: 0%;}
+.kutupad {z-index: 1;padding: 13px; }
+.kutubg:hover {background-color: grey; color: rgb(252, 252, 252); }
+.kutupad i {float:left; padding-right: 3px;padding-bottom: 30px; margin-top: 20px;margin-left: 44px ;}
+.kutupad p {text-align: center;margin-top: 20px;}
+.kutupad p span{text-align: center;text-align:center;}
+.kutubg { background-color: #fff;border: 1px solid #000000;font-weight: 500; }
+.konutproje{ margin-top: 75px ; }
+#bilgi { font-size: larger;margin-top: 80px;}
+
+.proje-gorsel{ float: left; width: 100%;}
